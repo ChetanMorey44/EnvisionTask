@@ -1,0 +1,161 @@
+body{
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nvvv{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+.mobile{
+    background-color: #014b85;
+}
+.aa{
+    color: white;
+}
+.bg{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Images/h1_hero.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.bg2{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Images/bg2.webp);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.bg45{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Images/one.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.p{
+    padding: 12px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.btn1{
+    width: 160px;
+    height: 52px;
+    background-color:#fde02f;
+    font-size: 12px;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+.btn1:hover{
+   background: linear-gradient(rgba(234, 249, 17, 0.5),rgba(0,0,0,0.5));
+   color: white;
+}
+.center{
+    width: 100%;
+    height: 100%;
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    font-family: "Pacifico", cursive;
+}
+.pp{
+    font-size: 20px;
+}
+.p1{
+    font-size: 12px;
+    font-weight: bold;
+}
+.div1{
+  padding: 30px ;
+    
+}
+.p2{
+    position: relative;
+    top: 20px;
+}
+.bg1{
+    background: url(../Images/video-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.center1{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.btn2{
+    margin-top: 30px;
+    height: 60px;
+    width: 140px;
+    border: 2px solid  #042c65 ;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: #042c65;
+    color: white;
+}
+.bg3{
+    background: url(../Images/one.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.now{
+        
+    background-color: #014b85;
+    height: 80px;
+}
+.bg4{
+    background: url(../Images/footer_bg.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media(min-width:768px){
+    .img{
+        position: relative; 
+        top: 60px;
+    }
+}
+@media(min-width:768px){
+    .img{
+        position: relative; 
+        top: 2px;
+        height: 600px;
+    }
+    .now{
+        background-color: #014b85;
+        height: 130px;
+    }
+    .mobile{
+        background-color:white;
+    }
+    .aa{
+        color:black;
+    }
+    .bg4{
+        background: url(../Images/footer_bg.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .nvvv{
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        background-color: white;
+    }
+}

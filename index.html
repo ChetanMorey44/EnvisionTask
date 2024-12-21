@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstarp CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Racing+Sans+One&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="Css/Style.css">
+    
+    <title>  Tours</title>
+    <link rel="icon" href="Images/Flaticon.png">
+</head>
+<body>
+     <section>
+        <nav class="navbar navbar-expand-lg nvvv ">
+            <div class="container-fluid">
+              <a class="navbar-brand col-6" href="#">
+                <img src="./Images/logo (2).png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mobile p-3 p-lg-0 p-md-0 " id="navbarNavAltMarkup">
+                <div class="navbar-nav col-lg-6 justify-content-between">
+                  <a class="nav-link aa" aria-current="page" href="#">Home</a>
+                  <a class="nav-link aa" href="#">About</a>
+                  <a class="nav-link aa" href="#">Trips</a>
+                  <a class="nav-link aa" aria-disabled="true">Services</a>
+                  <a class="nav-link aa" aria-disabled="true">Branches</a>
+                  <a class="nav-link aa" aria-disabled="true">Blogs</a>
+                  <a class="nav-link aa" aria-disabled="true">Contacts</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+     </section>
+     <!-- <section class="bg">
+           <div class="center" >
+              <div class="container">
+                <h1 class="display-2 h1" style="color:  #fde02f; ">Find Your Next Tour</h1>
+                <p class="text-white fw-bold pp">Where would you like to go?</p>
+              </div>
+                
+           <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-12">
+                     <input  placeholder="When would you like to go?" class="col-lg-12 col-12 p" type="text">
+                </div>
+                <div class="accordion col-lg-3 col-12 mt-2 mt-lg-0 mt-md-2" id="accordionExample">
+       
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          When
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>When</strong> 
+                            <p class="text-secondary mt-2">Service-1</p>
+                            <p class="text-secondary mt-2">Service-2</p>
+                            <p class="text-secondary mt-2">Service-3</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
+              <div class="col-lg-2 col-md-3 col-2 mt-2 mt-lg-0 mt-md-2">
+                  <button class="btn1 rounded-3 p-3">SEARCH</button>
+              </div>
+            </div>
+           </div>
+            </div>
+           </div>
+     </section> -->
+
+     <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active bg">
+            <div class="w-100 h-100 align-items-center justify-content-center d-flex">
+                <div >
+                    <div class="container">
+                        <h1 class="display-2 h1" style="color:  #fde02f; ">Find Your Next Tour</h1>
+                        <p class="text-white fw-bold pp">Where would you like to go?</p>
+                      </div>
+
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <input  placeholder="When would you like to go?" class="col-lg-12 col-12 p" type="text">
+                         </div>
+    
+                         <div class="accordion col-lg-4 col-12 mt-2 mt-lg-0 mt-md-2" id="accordionExample">
+               
+                            <div class="accordion-item ">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  When
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>When</strong> 
+                                    <p class="text-secondary mt-2">Service-1</p>
+                                    <p class="text-secondary mt-2">Service-2</p>
+                                    <p class="text-secondary mt-2">Service-3</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+    
+                          <div class="col-lg-2 col-md-3 col-2 mt-2 mt-lg-0 mt-md-2">
+                            <button class="btn1 rounded-3 p-3">SEARCH</button>
+                         </div>
+                    </div>
+                              
+              
+                 </div>
+            </div>
+        </div>
+        <div class="carousel-item bg2">
+          <div class="w-100 h-100 align-items-center justify-content-center d-flex">
+            <div >
+                <div class="container">
+                    <h1 class="display-2 h1" style="color:  #fde02f; ">Find Your Next Tour</h1>
+                    <p class="text-white fw-bold pp">Where would you like to go?</p>
+                  </div>
+
+                <div class="row">
+                    <div class="col-lg-8">
+                        <input  placeholder="When would you like to go?" class="col-lg-12 col-12 p" type="text">
+                     </div>
+
+                     <div class="accordion col-lg-4 col-12 mt-2 mt-lg-0 mt-md-2" id="accordionExample">
+           
+                        <div class="accordion-item ">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              When
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>When</strong> 
+                                <p class="text-secondary mt-2">Service-1</p>
+                                <p class="text-secondary mt-2">Service-2</p>
+                                <p class="text-secondary mt-2">Service-3</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-2 col-md-3 col-2 mt-2 mt-lg-0 mt-md-2">
+                        <button class="btn1 rounded-3 p-3">SEARCH</button>
+                     </div>
+                </div>
+                          
+          
+             </div>
+        </div>
+        </div>
+        <div class="carousel-item bg3">
+          <div class="w-100 h-100 align-items-center justify-content-center d-flex">
+            <div >
+                <div class="container">
+                    <h1 class="display-2 h1" style="color:  #fde02f; ">Find Your Next Tour</h1>
+                    <p class="text-white fw-bold pp">Where would you like to go?</p>
+                  </div>
+
+                <div class="row">
+                    <div class="col-lg-8">
+                        <input  placeholder="When would you like to go?" class="col-lg-12 col-12 p" type="text">
+                     </div>
+
+                     <div class="accordion col-lg-4 col-12 mt-2 mt-lg-0 mt-md-2" id="accordionExample">
+           
+                        <div class="accordion-item ">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              When
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>When</strong> 
+                                <p class="text-secondary mt-2">Service-1</p>
+                                <p class="text-secondary mt-2">Service-2</p>
+                                <p class="text-secondary mt-2">Service-3</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-2 col-md-3 col-2 mt-2 mt-lg-0 mt-md-2">
+                        <button class="btn1 rounded-3 p-3">SEARCH</button>
+                     </div>
+                </div>
+                          
+          
+             </div>
+        </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+   
+
+
+     <section class="container mt-3 mt-lg-5">
+        <div class="row">
+              <div class="col-lg-3 col-md-6 p-3 mt-lg-4 mt-3 ">
+                <div class="shadow text-center div1">
+                    <img class="img-fluid" src="./Images/Homepage_testi.png" alt="">
+                    <p class="mt-3 p1">8000+ Our Local <br> Guides</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 p-3 mt-lg-4 mt-3 ">
+                <div class="shadow text-center div1">
+                    <img class="img-fluid" src="./Images/Homepage_testi.png" alt="">
+                    <p class="mt-3 p1">100% Trusted Tour
+                       <br> Agency</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 p-3 mt-lg-4 mt-3 ">
+                <div class="shadow text-center div1">
+                    <img class="img-fluid" src="./Images/Homepage_testi.png" alt="">
+                    <p class="mt-3 p1">28+ Years of Travel
+                        <br>Experience</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 p-3 mt-lg-4 mt-3 ">
+                <div class="shadow text-center div1">
+                    <img class="img-fluid" src="./Images/Homepage_testi.png" alt="">
+                    <p class="mt-3 p1">98% Our Travelers
+                        <br>are Happy</p>
+                </div>
+              </div>
+        </div>
+     </section>
+
+     <section class="container">
+          <div class=" mt-lg-4 mt-3">
+              <div class="text-center">
+                <p  class=" fw-bold p2" style="color: #f8d806;">FEATURED TOURS PACKAGES</p>
+                <h1 class="display-5  fw-bold">Favourite Places</h1>
+              </div>
+               <div class="row">
+                   <div class="col-lg-4 col-md-6 p-4">
+                    <div class="border ">
+                        <div class="">
+                          <img class="img-fluid" src="Images/services1.jpg" alt="">
+                         <div class="p-3">
+                          <div class="mt-">
+                            <span><i class="bi bi-star-fill text-warning"></i></span><span class="text-secondary fw-bold mx-2">8.0 Superb</span> 
+                        </div>
+                        <div class="mt-2">
+                          <h5 class="fw-bold">The Dark Forest Adventure</h5>
+                        </div>
+                        <div class="mt-2">
+                          <span class="fw-bold" style="color: cadetblue;font-size: 19px;">$1870</span><span class="fw-bold text-secondary"> / Per Person</span>
+                        </div>
+                         <div class="mt-4">
+                            <span class="text-secondary"><i class="bi bi-stopwatch"></i></span>
+                            <span class="text-secondary mx-2">3 Days</span>
+                            <span class="text-secondary  mx-2"><i class="bi bi-geo-alt"></i></span>
+                            <span class="text-secondary ">Los Angeles</span>
+                         </div>
+                         </div>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6 p-4">
+                    <div class="border rounded-3">
+                        <div class="">
+                          <img class="img-fluid" src="Images/services2.jpg" alt="">
+                         <div class="p-3">
+                          <div class="mt-">
+                            <span><i class="bi bi-star-fill text-warning"></i></span><span class="text-secondary fw-bold mx-2">8.0 Superb</span> 
+                        </div>
+                        <div class="mt-2">
+                          <h5 class="fw-bold">The Dark Forest Adventure</h5>
+                        </div>
+                        <div class="mt-2">
+                          <span class="fw-bold" style="color: cadetblue;font-size: 19px;">$1870</span><span class="fw-bold text-secondary"> / Per Person</span>
+                        </div>
+                         <div class="mt-4">
+                            <span class="text-secondary"><i class="bi bi-stopwatch"></i></span>
+                            <span class="text-secondary mx-2">3 Days</span>
+                            <span class="text-secondary  mx-2"><i class="bi bi-geo-alt"></i></span>
+                            <span class="text-secondary ">Los Angeles</span>
+                         </div>
+                         </div>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6 p-4">
+                    <div class="border rounded-3">
+                        <div class="">
+                          <img class="img-fluid" src="Images/services3.jpg" alt="">
+                         <div class="p-3">
+                          <div class="mt-">
+                            <span><i class="bi bi-star-fill text-warning"></i></span><span class="text-secondary fw-bold mx-2">8.0 Superb</span> 
+                        </div>
+                        <div class="mt-2">
+                          <h5 class="fw-bold">The Dark Forest Adventure</h5>
+                        </div>
+                        <div class="mt-2">
+                          <span class="fw-bold" style="color: cadetblue;font-size: 19px;">$1870</span><span class="fw-bold text-secondary"> / Per Person</span>
+                        </div>
+                         <div class="mt-4">
+                            <span class="text-secondary"><i class="bi bi-stopwatch"></i></span>
+                            <span class="text-secondary mx-2">3 Days</span>
+                            <span class="text-secondary  mx-2"><i class="bi bi-geo-alt"></i></span>
+                            <span class="text-secondary ">Los Angeles</span>
+                         </div>
+                         </div>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6 p-4">
+                    <div class="border rounded-3">
+                        <div class="">
+                          <img class="img-fluid" src="Images/services4.jpg" alt="">
+                         <div class="p-3">
+                          <div class="mt-">
+                            <span><i class="bi bi-star-fill text-warning"></i></span><span class="text-secondary fw-bold mx-2">8.0 Superb</span> 
+                        </div>
+                        <div class="mt-2">
+                          <h5 class="fw-bold">The Dark Forest Adventure</h5>
+                        </div>
+                        <div class="mt-2">
+                          <span class="fw-bold" style="color: cadetblue;font-size: 19px;">$1870</span><span class="fw-bold text-secondary"> / Per Person</span>
+                        </div>
+                         <div class="mt-4">
+                            <span class="text-secondary"><i class="bi bi-stopwatch"></i></span>
+                            <span class="text-secondary mx-2">3 Days</span>
+                            <span class="text-secondary  mx-2"><i class="bi bi-geo-alt"></i></span>
+                            <span class="text-secondary ">Los Angeles</span>
+                         </div>
+                         </div>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6 p-4">
+                    <div class="border rounded-3">
+                        <div class="">
+                          <img class="img-fluid" src="./Images/services5.jpg" alt="">
+                         <div class="p-3">
+                          <div class="mt-">
+                            <span><i class="bi bi-star-fill text-warning"></i></span><span class="text-secondary fw-bold mx-2">8.0 Superb</span> 
+                        </div>
+                        <div class="mt-2">
+                          <h5 class="fw-bold">The Dark Forest Adventure</h5>
+                        </div>
+                        <div class="mt-2">
+                          <span class="fw-bold" style="color: cadetblue;font-size: 19px;">$1870</span><span class="fw-bold text-secondary"> / Per Person</span>
+                        </div>
+                         <div class="mt-4">
+                            <span class="text-secondary"><i class="bi bi-stopwatch"></i></span>
+                            <span class="text-secondary mx-2">3 Days</span>
+                            <span class="text-secondary  mx-2"><i class="bi bi-geo-alt"></i></span>
+                            <span class="text-secondary ">Los Angeles</span>
+                         </div>
+                         </div>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6 p-4">
+                    <div class="border rounded-3">
+                        <div class="">
+                          <img class="img-fluid" src="./Images/services6.jpg" alt="">
+                         <div class="p-3">
+                          <div class="mt-">
+                            <span><i class="bi bi-star-fill text-warning"></i></span><span class="text-secondary fw-bold mx-2">8.0 Superb</span> 
+                        </div>
+                        <div class="mt-2">
+                          <h5 class="fw-bold">The Dark Forest Adventure</h5>
+                        </div>
+                        <div class="mt-2">
+                          <span class="fw-bold" style="color: cadetblue;font-size: 19px;">$1870</span><span class="fw-bold text-secondary"> / Per Person</span>
+                        </div>
+                         <div class="mt-4">
+                            <span class="text-secondary"><i class="bi bi-stopwatch"></i></span>
+                            <span class="text-secondary mx-2">3 Days</span>
+                            <span class="text-secondary  mx-2"><i class="bi bi-geo-alt"></i></span>
+                            <span class="text-secondary ">Los Angeles</span>
+                         </div>
+                         </div>
+                        </div>
+                    </div>
+                   </div>
+               </div>
+          </div>
+     </section>
+
+     <section class="mt-lg-5 mt-md-3 mt-3">
+         <div class="bg1">
+             <div class="center1 ">
+              <div class="col-lg-7 text-center container">
+                <p class=" fw-bold" style="font-size: 17px;position: relative;top: 7px;color: #f8d806;">LOVE WHERE YOU'RE GOING IN THE PERFECT TIME</p>
+                <h1 class="display-5 text-white fw-bold">Tripo is a World Leading Online Tour Booking Platform</h1>
+            </div>
+             </div>
+         </div>
+     </section>
+     <section class="container">
+         <div class="row">
+              <div class="col-lg-6 col-md-6 ">
+                   <img class="img-fluid img" src="Images/support-img.jpg" alt="">
+              </div>
+              <div class="col-lg-6 col-md-6 " >
+                  <div class="mt-lg-5 mt-3">
+                    <p class="text-warning lead fw-bold " style="font-size: 14px;position: relative;top: 30px;">ABOUT OUR COMPANY</p>
+                    <h1 class="display-lg-5 mt-5  fw-bold h22">We are Go Trip 
+                      Ravels  <br>Support Company</h1>
+                      <p class="mt-lg-5 text-secondary mt-4 mt-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                  </div>
+                  <div class="mt-4 mt-md-0 mt-lg-5">
+                     <div class="mt-lg-2 mt-4 mt-md-1">
+                         <input class="" type="checkbox" >
+                         <label for="" class="text-secondary mx-2">Lorem ipsum dolor sit amet,</label>
+                     </div>
+                     <div class="mt-lg-2 mt-2">
+                          <input class="" type="checkbox" >
+                         <label for="" class="text-secondary mx-2">Lorem ipsum dolor sit amet,</label>
+                    </div>
+                    <div class="mt-lg-2 mt-2">
+                         <input class="" type="checkbox" >
+                         <label for="" class="text-secondary mx-2">Lorem ipsum dolor sit amet,</label>
+                    </div>
+                    <div class="mt-lg-2 mt-2">
+                        <input class="" type="checkbox" >
+                         <label for="" class="text-secondary mx-2">Lorem ipsum dolor sit amet,</label>
+                    </div>
+                    <div class="mt-lg-2 mt-3 mt-md-0">
+                        <button class="btn2">About Us</button>
+                    </div>
+                  </div>
+              </div>
+         </div>
+     </section>
+
+     <section class="mt-lg-5 mt-2">
+         <div class="bg3">
+              <div class="center1 text-center">
+                <div class="col-8">
+                  <img class="img-fluid" src="Images/two.png" alt="">
+                  <p class="fs-3 " style="color: rgb(2, 2, 44);">Logisti Group is a representative logistics operator providing full range of ser
+                   of customs clearance and transportation worl.</p>
+                  <div class="  ">
+                   <div>
+                     <img class="img-fluid" src="./Images/Homepage_testi.png" alt="">
+                   </div>
+                  <div>
+                     <li class="text-white list-unstyled">Jessya Inn</li>
+                     <li class="fw-bold text-white list-unstyled">Co-Founder</li>
+                 </div>
+                  </div>
+             </div>
+              </div>
+         </div>
+     </section>
+
+     <section class="container">
+      <div class="text-center p-3 mt-2 mt-lg-3 p-lg-5 ">
+        <p  class=" fw-bold p2" style="color: #f8d806;">OUR RECENT NEWS</p>
+        <h1 class="display-5  fw-bold">Tourist Blog</h1>
+      </div>
+          <div class="row">
+               <div class="col-lg-6 p-2">
+                   <div class="p-2">
+                       <img class="img-fluid" src="Images/home-blog1.jpg" alt="">
+                       <div class="d-flex">
+                        <div class="p-2 p-lg3 p-md-3 col-3 mt-3 now">
+                          <div>
+                             <span class="text-white mx-lg-4 mx-md-4  fs-4">30</span>
+                          </div>
+                          <div>
+                             <span class="text-white mx-lg-4 mx-md-4  fs-4">NOW</span>
+                          </div>
+                        </div>
+                        <div class="bg-white col-9 mx-3" style="position: relative;bottom: 60px;">
+                           <div class="mx-3">
+                             <p class="mt-lg-2 mt-md-2">| Traveling</p>
+                             <div class="mt-lg-2 mt-md-2">
+                               <h5 class="mt-lg-2 mt-md-2">Tips For Taking A Long-Term Trip <br> With Kids.</h5>
+                             </div>
+                             <div class="mt-lg-5 mt-md-5 mt-4">
+                                 <a style="text-decoration: none; font-size: 13px; color:black;" href="" class="">READ MORE >></a>
+                             </div>
+                           </div>
+                        </div>
+                    </div>
+                   </div>
+               </div>
+               <div class="col-lg-6 p-2">
+                   <div class="p-2">
+                       <img class="img-fluid" src="Images/home-blog2.jpg" alt="">
+                       <div class="d-flex">
+                           <div class="p-2 p-lg3 p-md-3 col-3 mt-3 now">
+                             <div>
+                                <span class="text-white mx-lg-4 mx-md-4  fs-4">24</span>
+                             </div>
+                             <div>
+                                <span class="text-white mx-lg-4 mx-md-4  fs-4">NOW</span>
+                             </div>
+                           </div>
+                           <div class="bg-white col-9 mx-3" style="position: relative;bottom: 60px;">
+                              <div class="mx-3">
+                                <p class="mt-lg-2 mt-md-2">| Traveling</p>
+                                <div class="mt-lg-2 mt-md-2">
+                                  <h5 class="mt-lg-2 mt-md-2">Tips For Taking A Long-Term Trip <br> With Kids.</h5>
+                                </div>
+                                <div class="mt-lg-5 mt-md-5 mt-4">
+                                    <a style="text-decoration: none; font-size: 13px; color:black;" href="" class="">READ MORE >></a>
+                                </div>
+                              </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+          </div>
+     </section>
+
+     <div class="container price mt-5 ">
+      <h3 class="text-center mb-4 fw-bold p-2">Pricing</h3>
+
+      <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-4 ">
+              <table class="table text-center table-borderless ">
+                  <thead class="border border-none">
+                      <th> <span class="price"><sup class="text-secondary">$</sup> <span class="text-warning">49
+                              </span> <br>
+                              <span>Personal</span></th>
+
+                  </thead>
+                  <tbody class="border border-none">
+
+                      <tr>
+                          <td><i class="bi bi-check "></i>Strategic Alliance</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Growth Expansion</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Business Planning</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Contact Negotiation</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Market Positioning</td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#" class="btn btn-outline-warning"> Check Price</a>
+                          </td>
+                      </tr>
+
+                  </tbody>
+              </table>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4 ">
+              <table class="table text-center table-borderless ">
+                  <thead class="border border-none">
+                      <th> <span class="price"><sup class="text-secondary">$</sup> <span class="text-warning">90
+                              </span> <br>
+                              <span>Professional</span></th>
+
+                  </thead>
+                  <tbody class="border border-none">
+
+                      <tr>
+                          <td><i class="bi bi-check "></i>Strategic Alliance</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Growth Expansion</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Business Planning</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Contact Negotiation</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Market Positioning</td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#" class="btn btn-outline-warning"> Check Price</a>
+                          </td>
+                      </tr>
+
+                  </tbody>
+              </table>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 ">
+              <table class="table text-center table-borderless ">
+                  <thead class="border border-none">
+                      <th> <span class="price"><sup class="text-secondary">$</sup> <span class="text-warning">110
+                              </span> <br>
+                              <span>Medium Business</span></th>
+
+                  </thead>
+                  <tbody class="border border-none">
+
+                      <tr>
+                          <td><i class="bi bi-check "></i>Strategic Alliance</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Growth Expansion</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Business Planning</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Contact Negotiation</td>
+                      </tr>
+                      <tr>
+                          <td><i class="bi bi-check"></i>Market Positioning</td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#" class="btn btn-outline-warning"> Check Price</a>
+                          </td>
+                      </tr>
+
+                  </tbody>
+              </table>
+          </div>
+
+      </div>
+
+  </div>
+
+
+
+     <footer>
+          <div class="bg4">
+                 <div class="container" >
+                      <div class="row p-3">
+                            <div class="col-lg-3 mt-4">
+                                <img class="img-fluid" src="Images/logo (2).png" alt="">
+                                <p class="text-light mt-3">Lorem iaspsum doldfor sit amvset, consectetur adipisicing cvelit csed do eiusmod tempor incididucvccnt ut labovre.</p>
+                            </div>
+                            <div class="col-lg-3 mt-4">
+                               <p style="font-size: 23px;color: #f8d806;" >Quick Links</p>
+                               <ul>
+                                 <li class="mt-3"><a class="text-decoration-none text-white " href="">About</a></li>
+                                 <li class="mt-3"><a class="text-decoration-none text-white " href="">Offers & Discounts</a></li>
+                                 <li class="mt-3"><a class="text-decoration-none text-white " href="">Get Coupon</a></li>
+                                 <li class="mt-3"><a class="text-decoration-none text-white " href="">Contact Us</a></li>
+                               </ul>
+                            </div>
+                            <div class="col-lg-3 mt-4">
+                              <p style="font-size: 23px;color: #f8d806;" >New Products</p>
+                              <ul class="mt-4">
+                                <li class="mt-3"><a class="text-decoration-none text-white " href="">Woman Cloth</a></li>
+                                <li class="mt-3"><a class="text-decoration-none text-white " href="">Fashion Accessories</a></li>
+                                <li class="mt-3"><a class="text-decoration-none text-white " href="">Man Accessories</a></li>
+                                <li class="mt-3"><a class="text-decoration-none text-white " href="">Rubber made Toys</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-3 mt-4">
+                              <p style="font-size: 23px;color: #f8d806;" >New Products</p>
+                              <ul class="mt-4">
+                                <li class="mt-3"><a class="text-decoration-none text-white " href="">Support</a></li>
+                                <li class="mt-3"><a class="text-decoration-none text-white " href="">Terms & Conditions</a></li>
+                                <li class="mt-3"><a class="text-decoration-none text-white " href="">Privacy Policy</a></li>
+                                <li class="mt-3"><a class="text-decoration-none text-white " href="">Privacy Policy</a></li>
+                                <li class="mt-3"><a class="text-decoration-none text-white " href="">Report a Payment Issue</a></li>
+                              </ul>
+                            </div>
+                      </div>
+                 </div>
+                 <div>
+                  <hr class="text-white">
+                  <div class="container">
+                      <div class="d-lg-flex d-md-flex">
+                        <div class="col-lg-8 col-md-6 ">
+                          <p style="font-size: 16px;color: #f8d806;" >Copyright ©2024 All rights reserved | This template is made with <span class="fw-bold fs-3 p-2 " style="color: red;"><i class="bi bi-heart "></i></span>  by Colorlib</p>
+                       </div>
+                       <div class="col-lg-4 col-md-6">
+                        <div class="p-3">
+                           <span class="mx-3 "><i class="text-white bi bi-twitter"></i></span>
+                           <span class="mx-3 "><i class="text-white bi bi-facebook"></i></span>
+                           <span class="mx-3 "><i class="text-white bi bi-whatsapp"></i></span>
+                           <span class="mx-3 "><i class="text-white bi bi-instagram"></i></span>
+                        </div>
+                       </div>
+                      </div>
+                  </div>
+             </div>
+          </div>
+         
+     </footer>
+
+     
+     
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script> -->
+</body>
+</html>
